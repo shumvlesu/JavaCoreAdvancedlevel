@@ -15,6 +15,7 @@ public enum Fruit {
     return weight;
   }
 
+  //Этот конструктор определяет какие значения будут в перечислении , тут 1 русское название а 2е вес
   Fruit(String russianTitle, int weight) {
     this.russianTitle = russianTitle;
     this.weight = weight;
