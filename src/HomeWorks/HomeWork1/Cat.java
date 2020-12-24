@@ -15,12 +15,12 @@ public class Cat implements Moving{
   }
 
   @Override
-  public void run() {
+  public void run(Moving moving) {
 
   }
 
   @Override
-  public void jump() {
+  public void jump(Moving moving) {
 
   }
 }
