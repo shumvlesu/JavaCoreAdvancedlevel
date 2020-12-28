@@ -1,13 +1,20 @@
 package HomeWorks.HomeWork1;
 
-public class Track {
+public class Track implements Obstacle{
 
-  int longTrack;
+  private int longTrack;
 
   public Track(int longTrack) {
     this.longTrack = longTrack;
   }
 
+  @Override
+  public int getLongTrack() {
+    return longTrack;
+  }
 
-
+  @Override
+  public int getHeightWall() {
+    return 0;
+  }
 }

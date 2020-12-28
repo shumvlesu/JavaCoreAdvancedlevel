@@ -1,13 +1,20 @@
 package HomeWorks.HomeWork1;
 
-public class Wall {
+public class Wall implements Obstacle{
 
-  int heightWall; //высота стены
+  private int heightWall; //высота стены
 
   public Wall(int heightWall) {
     this.heightWall = heightWall;
   }
 
+  @Override
+  public int getHeightWall() {
+    return heightWall;
+  }
 
-
+  @Override
+  public int getLongTrack() {
+    return 0;
+  }
 }
