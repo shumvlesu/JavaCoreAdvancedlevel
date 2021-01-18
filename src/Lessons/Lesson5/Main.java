@@ -10,12 +10,13 @@ public class Main {
       public void run() {
         do {
           System.out.println("Тик");
-        }while (!isInterrupted());
+        }while (!isInterrupted()); // проверяем стоит ли флаг завершения потока.
       }
     };
 
     thread.start();
     Thread.sleep(TimeUnit.SECONDS.toMillis(3));
+    //interrupt - это флаг позволяющий потоку понять что его хотят завершить
     thread.interrupt();
 
 
