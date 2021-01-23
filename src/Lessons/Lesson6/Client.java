@@ -11,6 +11,7 @@ import java.util.UUID;
 public class Client {
 
   public static void main(String[] args) throws IOException {
+    //генерируем id для клиента
     String id = UUID.randomUUID().toString();
     //Для клиента используем экземпляр класса Socket (не ServerSocket)
     //В момент создания socket пытаемся подключиться к серверу

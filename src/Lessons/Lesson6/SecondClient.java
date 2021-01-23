@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.net.Socket;
 import java.util.Scanner;
 
+//просто класс для тестирования нескольких клиентов
 public class SecondClient {
   public static void main(String[] args) throws IOException {
     Socket socket = new Socket("localhost",8081);

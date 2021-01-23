@@ -10,6 +10,7 @@ import java.net.Socket;
 public class Server {
 
   public static void main(String[] args) {
+    //http://blog.harrix.org/article/7348 как подключить gson
     //Создаем экземпляр класса ServerSocket который слушает порт 8081
     //ServerSocket является наследником классов имеющих AutoCloseable. Так что джава сама его закроет и
     //socket.close(); не нужно использовать при отключении или ошибки исключения
